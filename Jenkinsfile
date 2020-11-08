@@ -11,7 +11,7 @@ pipeline {
     stage('2') {
       steps {
         sleep 2
-        timestamps()
+        sh 'echo "step 2"'
       }
     }
 
